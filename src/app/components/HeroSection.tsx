@@ -14,14 +14,13 @@ const HeroSection = () => {
           Master in Programming
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          itaque eligendi soluta officiis omnis dolore dolorem culpa et delectus
-          optio?
+        Learn to code with expert guidance and hands-on projects that prepare you for real-world development.
         </p>
         <div className="mt-6">
-          <Button 
-          borderRadius="1.75rem"
-          className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800">
+          <Button
+            borderRadius="1.75rem"
+            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+          >
             Explore it
           </Button>
         </div>
