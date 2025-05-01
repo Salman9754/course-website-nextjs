@@ -37,7 +37,7 @@
         "description": "Learn data wrangling, visualization, and machine learning using Python, Pandas, and Matplotlib.",
         "price": 129.99,
         "instructor": "James Morgan",
-        "isFeatured": false,
+        "isFeatured": true,
         "image": "/courses/data-science.jpg"
       },
       {
