@@ -4,6 +4,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import { MovingCards } from "./components/MovingCards";
 import Upcoming from "./components/Upcoming";
 import MeetInstructors from "./components/MeetInstructors";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <MovingCards />
         <Upcoming />
         <MeetInstructors />
+        <Footer/>
       </main>
     </>
   );
