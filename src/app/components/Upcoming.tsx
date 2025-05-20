@@ -1,44 +1,45 @@
-'use client'
+"use client";
 import React from "react";
 import { HoverEffect } from "@/app/components/ui/card-hover-effect";
 import Link from "next/link";
+import { Button } from "./ui/moving-border";
 
 export const projects = [
   {
     title: "Full-Stack Web Development",
     description:
       "Master both frontend and backend development in this hands-on workshop covering React, Node.js, and MongoDB.",
-    link: "https://yourdomain.com/workshops/fullstack",
+    link: "#",
   },
   {
     title: "AI & Machine Learning Essentials",
     description:
       "Dive into machine learning concepts, build models, and explore real-world AI applications using Python and TensorFlow.",
-    link: "https://yourdomain.com/workshops/ai-ml",
+    link: "#",
   },
   {
     title: "Frontend Mastery with React",
     description:
       "Level up your frontend skills by building dynamic, high-performance UIs using React and modern JavaScript.",
-    link: "https://yourdomain.com/workshops/react",
+    link: "#",
   },
   {
     title: "Intro to DevOps & CI/CD",
     description:
       "Learn the foundations of DevOps and automate your development pipeline with tools like GitHub Actions and Docker.",
-    link: "https://yourdomain.com/workshops/devops",
+    link: "#",
   },
   {
     title: "Cybersecurity Fundamentals",
     description:
       "Understand key cybersecurity principles, threat modeling, and how to safeguard web apps against common attacks.",
-    link: "https://yourdomain.com/workshops/cybersecurity",
+    link: "#",
   },
   {
     title: "Cloud Computing with AWS",
     description:
       "Get hands-on with cloud architecture and services using Amazon Web Services — perfect for aspiring cloud engineers.",
-    link: "https://yourdomain.com/workshops/aws",
+    link: "#",
   },
 ];
 
@@ -57,13 +58,11 @@ const Upcoming = () => {
         <div className="mt-10">
           <HoverEffect items={projects} />
         </div>
-        
+
         <div className="mt-10 text-center">
-          <Link href={"/"}
-          className="px-4 py-2 rounded-lg border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
-          >
-            View All webinars
-          </Link>
+          <Button className="flex justify-center bg-white dark:bg-zinc-900  text-black dark:text-white border-neutral-200 dark:border-slate-800">
+            <Link href={"#"}>View all webinars</Link>
+          </Button>
         </div>
       </div>
     </div>

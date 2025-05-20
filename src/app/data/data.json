@@ -1,105 +1,104 @@
 {
-    "courses": [
-      {
-        "id": 1,
-        "title": "Full-Stack Web Development",
-        "slug": "full-stack-web-development",
-        "description": "Learn to build modern web applications using HTML, CSS, JavaScript, React, and Node.js.",
-        "price": 99.99,
-        "instructor": "Sarah Thompson",
-        "isFeatured": true,
-        "image": "/courses/web-dev.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Introduction to Artificial Intelligence",
-        "slug": "introduction-to-artificial-intelligence",
-        "description": "Explore the fundamentals of AI including machine learning, neural networks, and Python programming.",
-        "price": 109.99,
-        "instructor": "Dr. Alan Cheng",
-        "isFeatured": false,
-        "image": "/courses/ai.jpg"
-      },
-      {
-        "id": 3,
-        "title": "Mobile App Development",
-        "slug": "mobile-app-development",
-        "description": "Create cross-platform mobile apps using React Native, JavaScript, and Firebase backend.",
-        "price": 119.99,
-        "instructor": "Nina Patel",
-        "isFeatured": true,
-        "image": "/courses/mobile-dev.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Data Science and Analytics",
-        "slug": "data-science-and-analytics",
-        "description": "Learn data wrangling, visualization, and machine learning using Python, Pandas, and Matplotlib.",
-        "price": 129.99,
-        "instructor": "James Morgan",
-        "isFeatured": true,
-        "image": "/courses/data-science.jpg"
-      },
-      {
-        "id": 5,
-        "title": "Cloud Computing with AWS",
-        "slug": "cloud-computing-with-aws",
-        "description": "Master the basics of cloud computing and deploy scalable apps on AWS infrastructure.",
-        "price": 139.99,
-        "instructor": "Emily Zhao",
-        "isFeatured": true,
-        "image": "/courses/aws.jpg"
-      },
-      {
-        "id": 6,
-        "title": "Cybersecurity Essentials",
-        "slug": "cybersecurity-essentials",
-        "description": "Understand the principles of cybersecurity, threats, vulnerabilities, and defensive strategies.",
-        "price": 149.99,
-        "instructor": "Mark Rivera",
-        "isFeatured": false,
-        "image": "/courses/cybersecurity.jpg"
-      },
-      {
-        "id": 7,
-        "title": "DevOps and CI/CD Pipelines",
-        "slug": "devops-and-cicd",
-        "description": "Learn how to streamline software delivery using Docker, Kubernetes, Jenkins, and GitHub Actions.",
-        "price": 159.99,
-        "instructor": "Laura Bennett",
-        "isFeatured": true,
-        "image": "/courses/devops.jpg"
-      },
-      {
-        "id": 8,
-        "title": "UI/UX Design Fundamentals",
-        "slug": "ui-ux-design-fundamentals",
-        "description": "Design beautiful and user-friendly interfaces with Figma, design systems, and usability testing.",
-        "price": 169.99,
-        "instructor": "Tom Sinclair",
-        "isFeatured": false,
-        "image": "/courses/uiux.jpg"
-      },
-      {
-        "id": 9,
-        "title": "Blockchain and Web3 Development",
-        "slug": "blockchain-and-web3-development",
-        "description": "Build decentralized applications using Ethereum, Solidity, and smart contracts.",
-        "price": 179.99,
-        "instructor": "Priya Mehta",
-        "isFeatured": true,
-        "image": "/courses/blockchain.jpg"
-      },
-      {
-        "id": 10,
-        "title": "Python Programming Masterclass",
-        "slug": "python-programming-masterclass",
-        "description": "Master Python from basics to advanced with hands-on projects, OOP, and real-world apps.",
-        "price": 189.99,
-        "instructor": "Daniel Kim",
-        "isFeatured": false,
-        "image": "/courses/python.jpg"
-      }
-    ]
-  }
-  
+  "courses": [
+    {
+      "id": 1,
+      "title": "Full-Stack Web Development",
+      "slug": "full-stack-web-development",
+      "description": "Learn to build modern web applications using HTML, CSS, JavaScript, React, and Node.js.",
+      "price": 99.99,
+      "instructor": "Sarah Thompson",
+      "isFeatured": true,
+      "image": "/web dev.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Introduction to Artificial Intelligence",
+      "slug": "introduction-to-artificial-intelligence",
+      "description": "Explore the fundamentals of AI including machine learning, neural networks, and Python programming.",
+      "price": 109.99,
+      "instructor": "Dr. Alan Cheng",
+      "isFeatured": false,
+      "image": "/Ai.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mobile App Development",
+      "slug": "mobile-app-development",
+      "description": "Create cross-platform mobile apps using React Native, JavaScript, and Firebase backend.",
+      "price": 119.99,
+      "instructor": "Nina Patel",
+      "isFeatured": true,
+      "image": "/mobile dev.webp"
+    },
+    {
+      "id": 4,
+      "title": "Data Science and Analytics",
+      "slug": "data-science-and-analytics",
+      "description": "Learn data wrangling, visualization, and machine learning using Python, Pandas, and Matplotlib.",
+      "price": 129.99,
+      "instructor": "James Morgan",
+      "isFeatured": true,
+      "image": "/Data.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Cloud Computing with AWS",
+      "slug": "cloud-computing-with-aws",
+      "description": "Master the basics of cloud computing and deploy scalable apps on AWS infrastructure.",
+      "price": 139.99,
+      "instructor": "Emily Zhao",
+      "isFeatured": true,
+      "image": "/cloud.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Cybersecurity Essentials",
+      "slug": "cybersecurity-essentials",
+      "description": "Understand the principles of cybersecurity, threats, vulnerabilities, and defensive strategies.",
+      "price": 149.99,
+      "instructor": "Mark Rivera",
+      "isFeatured": false,
+      "image": "/cyber.webp"
+    },
+    {
+      "id": 7,
+      "title": "DevOps and CI/CD Pipelines",
+      "slug": "devops-and-cicd",
+      "description": "Learn how to streamline software delivery using Docker, Kubernetes, Jenkins, and GitHub Actions.",
+      "price": 159.99,
+      "instructor": "Laura Bennett",
+      "isFeatured": true,
+      "image": "/dev ops.webp"
+    },
+    {
+      "id": 8,
+      "title": "UI/UX Design Fundamentals",
+      "slug": "ui-ux-design-fundamentals",
+      "description": "Design beautiful and user-friendly interfaces with Figma, design systems, and usability testing.",
+      "price": 169.99,
+      "instructor": "Tom Sinclair",
+      "isFeatured": false,
+      "image": "/ui ux.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Blockchain and Web3 Development",
+      "slug": "blockchain-and-web3-development",
+      "description": "Build decentralized applications using Ethereum, Solidity, and smart contracts.",
+      "price": 179.99,
+      "instructor": "Priya Mehta",
+      "isFeatured": true,
+      "image": "/block.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Python Programming Masterclass",
+      "slug": "python-programming-masterclass",
+      "description": "Master Python from basics to advanced with hands-on projects, OOP, and real-world apps.",
+      "price": 189.99,
+      "instructor": "Daniel Kim",
+      "isFeatured": false,
+      "image": "/python.jpg"
+    }
+  ]
+}

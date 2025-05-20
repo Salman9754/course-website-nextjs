@@ -47,7 +47,7 @@ const FeaturesCourses = () => {
                     </p>
                   <div className="mt-3">
                   <Button className="flex justify-center">
-                      <Link href={`/courses/${item.slug}`}>
+                      <Link href={`/courses`}>
                         Learn More
                       </Link>
                     </Button>
@@ -61,7 +61,7 @@ const FeaturesCourses = () => {
       </div>
       <div className="mt-20 text-center">
       <Button className="flex justify-center bg-white dark:bg-zinc-900  text-black dark:text-white border-neutral-200 dark:border-slate-800">
-                      <Link href={'/'}>
+                      <Link href={'/courses'}>
                        View All Courses
                       </Link>
                     </Button>
